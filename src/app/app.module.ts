@@ -3,7 +3,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 import { NgModule, LOCALE_ID } from '@angular/core';
-import { SlideshowModule } from 'ng-simple-slideshow';
+
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
@@ -24,7 +24,7 @@ registerLocaleData(localeEs, 'es-ES');
     BrowserModule,
     HttpClientModule,
     SharedModule,
-    SlideshowModule,
+
     AppRoutingModule
   ],
   providers: [
